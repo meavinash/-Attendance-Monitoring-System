@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Monitoring System</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./clockstyles.css" rel="stylesheet">
+    <link href="./buttonstyle.css" rel="stylesheet">
+     <script defer src="script.js"></script>
+    <style>
+    html, body{
+        width: 285px;
+        height: 100px;
+    }
+
+     h1 {
+            font-family: "Arvo";
+            font-size: 15px;
+            margin: 0;
+            color: #09034D95;
+            vertical-align: text-bottom;
+            margin: 3px;
+     }
+
+     img{
+        width: 30px;
+        margin: 0px;
+
+     }
+
+     .header{
+        border-bottom: 0.5px solid black;
+     }
+
+    </style>
+</head>
+<body>
+    <div class = "header">
+        <h1 class = "emblem">Attendance Monitoring System
+            <img src="logo_main.png" alt="Emerald" class="logo-icon">
+        </h1>
+    </div>
+<div class="clock">
+    <div class="hand hour" data-hour-hand></div>
+    <div class="hand minute" data-minute-hand></div>
+    <div class="hand second" data-second-hand></div>
+    <div class="number number1">1</div>
+    <div class="number number2">2</div>
+    <div class="number number3">3</div>
+    <div class="number number4">4</div>
+    <div class="number number5">5</div>
+    <div class="number number6">6</div>
+    <div class="number number7">7</div>
+    <div class="number number8">8</div>
+    <div class="number number9">9</div>
+    <div class="number number10">10</div>
+    <div class="number number11">11</div>
+    <div class="number number12">12</div>
+</div>
+<!--<div class="wrapper">-->
+<!--         <div class="display">-->
+<!--            <div id="time"></div>-->
+<!--         </div>-->
+<!--         <span></span>-->
+<!--         <span></span>-->
+<!--</div>-->
+<!--    <a href="model.html" >-->
+<button type="button" class="button" id = "btn1">
+	Start My Attendance
+</button>
+
+ <script src="popup.js"></script>
+
+
+<!--<script>-->
+<!--    function runOnPython() {-->
+<!--        window.open("C:/Users/Emerald Tuladhar/PycharmProjects/FYP/Attendance.py")-->
+<!--    }-->
+<!--</script>-->
+<!--<input type="button" id='script' name="scriptbutton" value="Start my Attendance" onclick="goPython()">-->
+
+<!--    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
+
+<!--    <script>-->
+<!--        function goPython(){-->
+<!--            $.ajax({-->
+<!--              url: "Attendance.py",-->
+<!--             context: document.body-->
+<!--            }).done(function() {-->
+<!--             alert('finished python script');-->
+<!--             console.log("abc");-->
+<!--            });-->
+<!--        }-->
+<!--    </script>-->
+</body>
+</html>
